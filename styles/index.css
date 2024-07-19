@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.illustration{
+    padding: 5rem;
+    width: 60vw;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: none;
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.consult{
+    background-color: rgb(112, 65, 125);
+}
+
+.consult a {
+    color: white;
+    text-decoration: none;
+}
+.member a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.heading{
+    padding: 4rem;
+    font-size: 4rem;
+    width: 30vw;
+    color: black;
+}
+
+.heading b {
+    color: rgb(112, 65, 125);
+}
+@media (max-width: 570px){
+    .main-content{
+        display: block;
+    }
+    .heading{
+        display: contents;
+    }
+    .heading h1{
+        margin: 5rem 5rem 0 5rem;
+        font-size: 4rem;
+    }
+    .btn{
+        margin-left: 5rem;
+    }
+    .illustration{
+        padding: 1rem;
+        width: 90vw;
+        margin-left: 1rem;
+    }
+}

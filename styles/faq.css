@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url(/styles/navbar.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header and Footer Styles */
+header {
+    background-color: rgb(112, 65, 125);
+    color: white;
+    padding: 1rem 0;
+}
+
+.brand {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(112, 65, 125);
+    color: white;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+.navitems a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+
+/* FAQ Page Styles */
+.faq {
+    padding: 2rem;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.faq .question {
+    margin-bottom: 2rem;
+}
+
+.faq .question h3 {
+    font-size: 1.5rem;
+    margin: 4rem 0 1.5rem 0;
+}
+
+.faq .question p {
+    font-size: 1.2rem;
+    color: rgb(112, 65, 125);
+}
+footer {
+    background-color: rgb(112, 65, 125);
+    padding: 2rem;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+footer a {
+    font-size: 1.2rem;
+    color: white;
+}

@@ -1,0 +1,22 @@
+footer {
+    background-color: rgb(112, 65, 125);
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+footer a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}

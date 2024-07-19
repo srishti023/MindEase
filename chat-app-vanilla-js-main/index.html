@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+         MindEase
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+         <li><a class="active" href="/index.angular.html">Home</a></li>
+         <li><a href="/faq.html">FAQ</a></li>
+         <li><a href="/ConsultADoctor/index.html">Therapists</a></li>
+         <li><a href="/Services/services.html">Services</a></li>
+         <li><a href="/chat-app-vanilla-js-main/index.html">Free Chat</a></li>
+         <li><a href="/Sliding-Sign-In-Sign-Up-Form-master/index.html">Login/Signup</a></li>
+      </ul>
+   </nav>
+    <!-- Person selector: this contains buttons for user to select whether to chat as Councelor or You -->
+    <div class="person-selector">
+      <button class="button person-selector-button active-person" id="Councelor-selector">Counselor</button>
+      <button class="button person-selector-button" id="You-selector">You</button>
+    </div>
+    <div class="chat-container">
+      <h2 class="chat-header">Counselor chatting...</h2>
+
+      <div class="chat-messages">
+        <div class="message blue-bg">
+          <div class="message-sender">Counselor</div>
+          <div class="message-text">Hello, I hope you're doing well. How are you feeling today?</div>
+          <div class="message-timestamp">10:30 AM</div>
+        </div>
+        <div class="message gray-bg">
+          <div class="message-sender">You</div>
+          <div class="message-text">I'm struggling with some issues.</div>
+          <div class="message-timestamp">10:35 AM</div>
+        </div>
+      </div>
+
+      <form class="chat-input-form">
+        <input type="text" class="chat-input" required placeholder="Type here, Counselor..." />
+        <button type="submit" class="button send-button">Send</button>
+      </form>
+      <button class="button clear-chat-button">Clear Chat</button>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <ul>
+          <li><a href="#">Feedback</a></li>
+          <li><a href="#">What we do</a></li>
+          <li><a href="#">Contact us</a></li>
+      </ul>
+  </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

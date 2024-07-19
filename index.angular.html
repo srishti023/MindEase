@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="virtuWellApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindEase</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body ng-controller="MainController">
+    
+    <nav>
+        <div class="logo">
+           MindEase
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a class="active" href="/index.angular.html">Home</a></li>
+           <li><a href="/faq.html">FAQ</a></li>
+           <li><a href="/ConsultADoctor/index.html">Therapists</a></li>
+           <li><a href="/Services/services.html">Services</a></li>
+           <li><a href="/chat-app-vanilla-js-main/index.html">Free Chat</a></li>
+           <li><a href="/Sliding-Sign-In-Sign-Up-Form-master/index.html">Login/Signup</a></li>
+        </ul>
+     </nav>
+
+    <section class="main-content">
+        <div class="heading">
+            <h1>Your <b>Mental Health</b> Matters</h1>
+            <button class="btn member"><a href="chat-app-vanilla-js-main/index.html">Chat Now!</a></button>
+            <button class="btn consult"><a href="Quiz/quiz.html" target="_blank">Take a free quiz</a></button>
+        </div>
+        <img class="illustration" src="assets/bg.png" alt="">
+    </section>
+    
+    <footer>
+        <ul>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="/Services/services.html">What we do</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
