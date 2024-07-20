@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-@import url(/styles/navbar.css);
+/* @import url(/styles/navbar.css); */
 *{
     margin: 0;
     padding: 0;
@@ -38,7 +38,15 @@ a {
     text-decoration: none;
     color: white;
     padding: 1rem;
-    font-size: 1.25rem;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.navitems a:hover{
+    color: rgb(112, 65, 125);
+    background: #fff;
+
 }
 
 
@@ -87,4 +95,15 @@ footer li {
 footer a {
     font-size: 1.2rem;
     color: white;
+}
+@media (max-width: 570px){
+    .header{
+        height: 200px;
+    }
+    .navbar{
+        height: 170px;
+    }
+    .faq{
+        padding: 5rem;
+    }
 }
