@@ -11,7 +11,7 @@
 header {
     background-color: rgb(112, 65, 125);
     color: white;
-    padding: 1rem 0;
+    height: 80px;
 }
 
 .brand {
@@ -30,8 +30,8 @@ a {
     align-items: center;
     background-color: rgb(112, 65, 125);
     color: white;
-    margin: 0.5rem;
-    border-radius: 1rem;
+    margin: 0;
+    height: 80px;
 }
 
 .navitems a {
